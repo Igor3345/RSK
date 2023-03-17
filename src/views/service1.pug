@@ -1,0 +1,12 @@
+extends layouts/static_header
+
+block vars
+	-
+		const page = {
+			title: 'index.html'
+		};
+
+block main
+	.container
+	include pages/service1/breadcrumbs
+	include pages/service1/service_content

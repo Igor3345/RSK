@@ -1,0 +1,81 @@
+footer.footer.js-footer.js-fake_videos
+	.container
+		.footer_title
+			span.footer_title__text ХОТИТЕ ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ?
+		span.footer_subtitle Lorem ipsum dolor sit amet, consectetur adipiscing
+		.footer_layout 
+			form.footer_form.js-ajax-form(action="/ajaxTest.html" method="GET")
+				.footer_form__content
+					.footer_form__inputs
+						.footer_form__input
+							input.form-control(type="text" placeholder='Ваше имя') 
+						.footer_form__input
+							input.form-control(data-validate="email" aria-describedby="E-mail" placeholder="email")
+							.feedback
+						.footer_form__input
+							input.form-control(data-validate="tel" placeholder="Телефон")
+							.feedback
+						.footer_form__texarea
+							textarea(placeholder="Текст")
+					.footer_form__checkboxes
+						span.footer_form__checkTitle Выберите услугу или товар
+						.footer_form__items
+							.footer_form__checkbox.form-check
+								input#exampleCheck1.form-check-input(type='checkbox')
+								label.form-check-label(for='exampleCheck1') Сервис по Наклонно Направленному Бурению (ННБ)
+							.footer_form__checkbox.form-check
+								input#exampleCheck2.form-check-input(type='checkbox')
+								label.form-check-label(for='exampleCheck2') Цементирование скважин
+							.footer_form__checkbox.form-check
+								input#exampleCheck3.form-check-input(type='checkbox')
+								label.form-check-label(for='exampleCheck3') Буровые растворы
+							.footer_form__checkbox.form-check
+								input#exampleCheck4.form-check-input(type='checkbox')
+								label.form-check-label(for='exampleCheck4') Интегрированный сервис
+							.footer_form__checkbox.form-check
+								input#exampleCheck5.form-check-input(type='checkbox')
+								label.form-check-label(for='exampleCheck5') Буровой инструмент
+							.footer_form__checkbox.form-check
+								input#exampleCheck6.form-check-input(type='checkbox')
+								label.form-check-label(for='exampleCheck6') Долотный сервис
+							.footer_form__checkbox.form-check
+								input#exampleCheck7.form-check-input(type='checkbox')
+								label.form-check-label(for='exampleCheck7') Бурение обсадными трубами
+							.footer_form__checkbox.form-check
+								input#exampleCheck8.form-check-input(type='checkbox')
+								label.form-check-label(for='exampleCheck8') Строительная техника
+							.footer_form__checkbox.form-check
+								input#exampleCheck9.form-check-input(type='checkbox')
+								label.form-check-label(for='exampleCheck9') Нефтегазовое оборудование
+							.footer_form__checkbox.form-check
+								input#exampleCheck10.form-check-input(type='checkbox')
+								label.form-check-label(for='exampleCheck10') Химреагенты
+							.footer_form__checkbox.form-check
+								input#exampleCheck11.form-check-input(type='checkbox')
+								label.form-check-label(for='exampleCheck11') Горюче-смазочные материалы и запасные части
+				button.btn.btn-primary(type='submit') Отправить
+			.footer_info
+				img.footer_info__logo(src="./images/logo_2.png" alt="")
+				a.footer_info__phone(href="tel:89113999999")
+					svg
+						use(xlink:href="images/sprite_build.svg#phone_icon")
+					| +7 (911) 399-99-99
+				a.footer_info__address(href="javascript:void(0)")
+					svg 
+						use(xlink:href="images/sprite_build.svg#map_pin_2")
+					| ул. Пушкина, д.6
+				.footer_info__navSoc 
+					a(href="javascript:void(0)")
+						svg 
+							use(xlink:href="images/sprite_build.svg#soc-whatsapp")
+					a(href="javascript:void(0)")
+						svg 
+							use(xlink:href="images/sprite_build.svg#soc-telegram")
+
+				span.footer_info__licence © 2010-2022 "RSK Group"#[br]
+					|Все права защищены.
+				.footer_info__author 
+					a.footer_info__author-link.footer_info__author-link--polity(href="javascript:void(0)") Политика конфиденциальности
+					a.footer_info__author-link.footer_info__author-link--name(href="javascript:void(0)") Разработано в Zeexa
+	img.background_image(src="./images/figure.png" alt="")
+	a.back-to-top.js-back-to-top(href="javascript:void(0);") Вверх

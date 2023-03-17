@@ -1,0 +1,15 @@
+extends layouts/default
+
+block vars
+	-
+		const page = {
+			title: 'index.html'
+		};
+
+block main
+	.container
+	include pages/index/top_slider
+	include pages/index/selling_section
+	include pages/index/catalog_section
+	include pages/index/partners_section
+	include pages/index/services_section

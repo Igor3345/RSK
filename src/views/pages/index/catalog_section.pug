@@ -1,0 +1,238 @@
+section.catalog_section
+    .section_frame.section_frame--catalog.js-switcher
+        img.section_frame__image.js-background-image(src='./images/catalog_image1.jpg' alt="")
+        img.section_frame__image.js-background-image.section_frame__image--hidden(src='./images/catalog_image2.jpg' alt="")
+        img.section_frame__image.js-background-image.section_frame__image--hidden(src='./images/catalog_image3.jpg' alt="")
+        img.section_frame__image.js-background-image.section_frame__image--hidden(src='./images/catalog_image4.jpg' alt="")
+        .container 
+            .catalog_lists 
+                h2 каталог
+                nav
+                    #nav-tab.nav.nav-tabs.mb-3(role='tablist')
+                        button#nav-home-tab.nav-link.active.js-background-switcher(data-bs-toggle='tab' data-bs-target='#tab1' type='button' role='tab' aria-controls='nav-home' aria-selected='true') Строительная техника
+                        button#nav-profile-tab.nav-link.js-background-switcher(data-bs-toggle='tab' data-bs-target='#tab2' type='button' role='tab' aria-controls='nav-profile' aria-selected='false') Нефтегазовое оборудование
+                        button#nav-contact-tab.nav-link.js-background-switcher(data-bs-toggle='tab' data-bs-target='#tab3' type='button' role='tab' aria-controls='nav-contact' aria-selected='false') Химреагенты
+                        button#nav-contact-tab.nav-link.js-background-switcher(data-bs-toggle='tab' data-bs-target='#tab4' type='button' role='tab' aria-controls='nav-contact' aria-selected='false') Запасные части и Горюче-смазочные материалы
+                #nav-tabContent.tab-content
+                    #tab1.tab-pane.catalog_tab.fade.show.active(role='tabpanel' aria-labelledby='nav-home-tab')
+                        .swiper.js-catalog_swiper
+                            .swiper-wrapper
+                                .swiper-slide.catalog_tab__slide.js-catalog_slide
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 01
+                                        a.catalog_tab__link(href="javascript:void(0)") Экскаваторы
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 02
+                                        a.catalog_tab__link(href="javascript:void(0)") Погрузчики фронтальные
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 03
+                                        a.catalog_tab__link(href="javascript:void(0)") Тягачи
+                                .swiper-slide.catalog_tab__slide.js-catalog_slide
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 04
+                                        a.catalog_tab__link(href="javascript:void(0)") Бульдозера
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 05
+                                        a.catalog_tab__link(href="javascript:void(0)") Экскаваторы-погрузчики
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 06
+                                        a.catalog_tab__link(href="javascript:void(0)") Полуприцепы (бортовые, рефрижераторы, шторы)
+                        .catalog_tab__bullets.js-catalog_tab-bullets
+                    #tab2.tab-pane.catalog_tab.fade(role='tabpanel' aria-labelledby='nav-profile-tab')
+                        .swiper.js-catalog_swiper
+                            .swiper-wrapper
+                                .swiper-slide.catalog_tab__slide.js-catalog_slide
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 01
+                                        a.catalog_tab__link(href="javascript:void(0)") Стационарные буровые установки
+                                            | эшелонного и блочно-модульного исполнения
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 02
+                                        a.catalog_tab__link(href="javascript:void(0)") Мобильные буровые установки
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 03
+                                        a.catalog_tab__link(href="javascript:void(0)") Металлические конструкции
+                                .swiper-slide.catalog_tab__slide.js-catalog_slide
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 04
+                                        a.catalog_tab__link(href="javascript:void(0)") Буровые насосы
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 05
+                                        a.catalog_tab__link(href="javascript:void(0)") Компрессоры
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 06
+                                        a.catalog_tab__link(href="javascript:void(0)") Системы очистки буровых растворов
+                                .swiper-slide.catalog_tab__slide.js-catalog_slide
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 04
+                                        a.catalog_tab__link(href="javascript:void(0)") Системы верхних приводов и силовые вертлюги
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 05
+                                        a.catalog_tab__link(href="javascript:void(0)") Подъемные системы
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 06
+                                        a.catalog_tab__link(href="javascript:void(0)") Роторы
+                                .swiper-slide.catalog_tab__slide.js-catalog_slide
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 01
+                                        a.catalog_tab__link(href="javascript:void(0)") Стационарные буровые установки
+                                            | эшелонного и блочно-модульного исполнения
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 02
+                                        a.catalog_tab__link(href="javascript:void(0)") Мобильные буровые установки
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 03
+                                        a.catalog_tab__link(href="javascript:void(0)") Металлические конструкции
+                                .swiper-slide.catalog_tab__slide.js-catalog_slide
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 04
+                                        a.catalog_tab__link(href="javascript:void(0)") Буровые насосы
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 05
+                                        a.catalog_tab__link(href="javascript:void(0)") Компрессоры
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 06
+                                        a.catalog_tab__link(href="javascript:void(0)") Системы очистки буровых растворов
+                                .swiper-slide.catalog_tab__slide.js-catalog_slide
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 04
+                                        a.catalog_tab__link(href="javascript:void(0)") Системы верхних приводов и силовые вертлюги
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 05
+                                        a.catalog_tab__link(href="javascript:void(0)") Подъемные системы
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 06
+                                        a.catalog_tab__link(href="javascript:void(0)") Роторы
+                        .catalog_tab__bullets.js-catalog_tab-bullets
+                    #tab3.tab-pane.catalog_tab.fade(role='tabpanel' aria-labelledby='nav-contact-tab')
+                        .swiper.js-catalog_swiper
+                            .swiper-wrapper
+                                .swiper-slide.catalog_tab__slide.js-catalog_slide
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 01
+                                        a.catalog_tab__link(href="javascript:void(0)") Стационарные буровые установки
+                                            | эшелонного и блочно-модульного исполнения
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 02
+                                        a.catalog_tab__link(href="javascript:void(0)") Мобильные буровые установки
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 03
+                                        a.catalog_tab__link(href="javascript:void(0)") Металлические конструкции
+                                .swiper-slide.catalog_tab__slide.js-catalog_slide
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 04
+                                        a.catalog_tab__link(href="javascript:void(0)") Буровые насосы
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 05
+                                        a.catalog_tab__link(href="javascript:void(0)") Компрессоры
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 06
+                                        a.catalog_tab__link(href="javascript:void(0)") Системы очистки буровых растворов
+                                .swiper-slide.catalog_tab__slide.js-catalog_slide
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 04
+                                        a.catalog_tab__link(href="javascript:void(0)") Системы верхних приводов и силовые вертлюги
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 05
+                                        a.catalog_tab__link(href="javascript:void(0)") Подъемные системы
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 06
+                                        a.catalog_tab__link(href="javascript:void(0)") Роторы
+                                .swiper-slide.catalog_tab__slide.js-catalog_slide
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 01
+                                        a.catalog_tab__link(href="javascript:void(0)") Стационарные буровые установки
+                                            | эшелонного и блочно-модульного исполнения
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 02
+                                        a.catalog_tab__link(href="javascript:void(0)") Мобильные буровые установки
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 03
+                                        a.catalog_tab__link(href="javascript:void(0)") Металлические конструкции
+                                .swiper-slide.catalog_tab__slide.js-catalog_slide
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 04
+                                        a.catalog_tab__link(href="javascript:void(0)") Буровые насосы
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 05
+                                        a.catalog_tab__link(href="javascript:void(0)") Компрессоры
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 06
+                                        a.catalog_tab__link(href="javascript:void(0)") Системы очистки буровых растворов
+                                .swiper-slide.catalog_tab__slide.js-catalog_slide
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 04
+                                        a.catalog_tab__link(href="javascript:void(0)") Системы верхних приводов и силовые вертлюги
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 05
+                                        a.catalog_tab__link(href="javascript:void(0)") Подъемные системы
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 06
+                                        a.catalog_tab__link(href="javascript:void(0)") Роторы
+                        .catalog_tab__bullets.js-catalog_tab-bullets
+                    #tab4.tab-pane.catalog_tab.fade(role='tabpanel' aria-labelledby='nav-contact-tab')
+                        .swiper.js-catalog_swiper
+                            .swiper-wrapper
+                                .swiper-slide.catalog_tab__slide.js-catalog_slide
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 01
+                                        a.catalog_tab__link(href="javascript:void(0)") Стационарные буровые установки
+                                            | эшелонного и блочно-модульного исполнения
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 02
+                                        a.catalog_tab__link(href="javascript:void(0)") Мобильные буровые установки
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 03
+                                        a.catalog_tab__link(href="javascript:void(0)") Металлические конструкции
+                                .swiper-slide.catalog_tab__slide.js-catalog_slide
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 04
+                                        a.catalog_tab__link(href="javascript:void(0)") Буровые насосы
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 05
+                                        a.catalog_tab__link(href="javascript:void(0)") Компрессоры
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 06
+                                        a.catalog_tab__link(href="javascript:void(0)") Системы очистки буровых растворов
+                                .swiper-slide.catalog_tab__slide.js-catalog_slide
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 04
+                                        a.catalog_tab__link(href="javascript:void(0)") Системы верхних приводов и силовые вертлюги
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 05
+                                        a.catalog_tab__link(href="javascript:void(0)") Подъемные системы
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 06
+                                        a.catalog_tab__link(href="javascript:void(0)") Роторы
+                                .swiper-slide.catalog_tab__slide.js-catalog_slide
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 01
+                                        a.catalog_tab__link(href="javascript:void(0)") Стационарные буровые установки
+                                            | эшелонного и блочно-модульного исполнения
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 02
+                                        a.catalog_tab__link(href="javascript:void(0)") Мобильные буровые установки
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 03
+                                        a.catalog_tab__link(href="javascript:void(0)") Металлические конструкции
+                                .swiper-slide.catalog_tab__slide.js-catalog_slide
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 04
+                                        a.catalog_tab__link(href="javascript:void(0)") Буровые насосы
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 05
+                                        a.catalog_tab__link(href="javascript:void(0)") Компрессоры
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 06
+                                        a.catalog_tab__link(href="javascript:void(0)") Системы очистки буровых растворов
+                                .swiper-slide.catalog_tab__slide.js-catalog_slides
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 04
+                                        a.catalog_tab__link(href="javascript:void(0)") Системы верхних приводов и силовые вертлюги
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 05
+                                        a.catalog_tab__link(href="javascript:void(0)") Подъемные системы
+                                    .catalog_tab__item
+                                        span.catalog_tab__count 06
+                                        a.catalog_tab__link(href="javascript:void(0)") Роторы
+                        .catalog_tab__bullets.js-catalog_tab-bullets

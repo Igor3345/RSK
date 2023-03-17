@@ -1,0 +1,85 @@
+header.header.js-sprite_svg
+    .container
+        .header_top
+            a.header_top__logo(href="./sitemap.html")
+                img(src="./images/Logo.svg" alt="")
+            .header_top__contacts 
+                a.header_top__link(href="javascript:void(0)")
+                    svg
+                        use(xlink:href="images/sprite_build.svg#map_pin_2")
+                    |ул. Пушкина, д.6
+                a.header_top__link.header_top__link--lined(href="javascript:void(0)") Перезвоните мне
+                a.header_top__phone(href="tel:+79113999999") +7 (911) 399-99-99
+        .header_bottom.js-burger_menu
+            .header_bottom__logo 
+                a.header_bottom__logo(href="javascript:void(0)")
+                    img(src="./images/Logo.svg" alt="")
+            nav.header_bottom__navigation.js-nav-menu
+                ul.header_bottom__nav-list 
+                    li
+                        a(href="javascript:void(0)") Компания
+                    li.header_bottom__submenu
+                        a.header_bottom__sublink(href="javascript:void(0)") Каталог
+                        ul 
+                            li
+                                a(href="javascript:void(0)") Специализированная техника
+                            li
+                                a(href="javascript:void(0)") Нефтегазовое оборудование
+                            li
+                                a(href="javascript:void(0)") Химреагенты
+                            li
+                                a(href="javascript:void(0)") Запасные части и Горюче-смазочные материалы
+                    li
+                        a(href="javascript:void(0)") Дилеры
+                    li.header_bottom__submenu
+                        a.header_bottom__sublink(href="javascript:void(0)") Сервисные услуги
+                        ul 
+                            li
+                                a(href="javascript:void(0)") Сервис по Наклонно Направленному Бурению (ННБ)
+                            li
+                                a(href="javascript:void(0)") Цементирование скважин
+                            li
+                                a(href="javascript:void(0)") Буровые растворы
+                            li
+                                a(href="javascript:void(0)") Интегрированное управление проектами
+                            li
+                                a(href="javascript:void(0)") Закачивание скважин
+                            li
+                                a(href="javascript:void(0)") Долотный сервис
+                            li
+                                a(href="javascript:void(0)") Бурение обсадными трубами
+                            li
+                                a(href="javascript:void(0)") Обучение
+                            li
+                                a(href="javascript:void(0)") Транспортные услуги
+                    li
+                        a(href="javascript:void(0)") Контакты
+                .header_bottom__navContact 
+                    span.header_bottom__navTitle Контакты
+                    a.header_bottom__navPhone(href="tel:89113999999")
+                        svg
+                            use(xlink:href="images/sprite_build.svg#phone_icon")
+                        | +7 (911) 399-99-99
+                    a.header_bottom__navAddress(href="javascript:void(0)")
+                        svg 
+                            use(xlink:href="images/sprite_build.svg#map_pin_2")
+                        | ул. Пушкина, д.6
+                    .header_bottom__navSoc 
+                        a(href="javascript:void(0)")
+                            svg 
+                                use(xlink:href="images/sprite_build.svg#soc-whatsapp")
+                        a(href="javascript:void(0)")
+                            svg 
+                                use(xlink:href="images/sprite_build.svg#soc-telegram")
+                
+            .header_bottom__language 
+                select.js-select
+                    option Ru 
+                    option En
+            a.header_bottom__phone(href="tel:+79113999999") 
+                svg 
+                    use(xlink:href="images/sprite_build.svg#phone_icon")
+            .header_bottom__burger.js-burger_button 
+                span.header_bottom__burger-item
+                span.header_bottom__burger-item
+                span.header_bottom__burger-item

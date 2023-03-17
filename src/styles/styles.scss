@@ -1,0 +1,63 @@
+// bootstrap
+@import 'custom';
+@import '~bootstrap/scss/bootstrap';
+
+// vendors
+@import '~choices.js/public/assets/styles/choices.min.css';
+@import "tech/vendor/yalb";
+
+@import 'variables';
+@import 'mixins';
+@import 'fonts';
+@import 'common';
+@import 'spacing';
+
+// tech layout
+@import 'tech/forms';
+@import 'tech/files-n-socs';
+@import 'tech/reaction';
+@import 'tech/tags';
+
+
+// header
+@import 'header';
+
+// footer
+@import 'footer';
+
+// breadcrumbs
+
+@import 'breadcrumbs';
+
+
+@import 'layout';
+
+// bem entities
+@import 'bems';
+
+
+// top section
+@import './index_page/top_slider_section.scss';
+
+//selling_section
+@import './index_page/selling_section.scss';
+
+// catalog_section
+@import './index_page/catalog_section.scss';
+
+// partners_section
+@import './index_page/partners_section.scss';
+
+// services_section
+@import './index_page/services_section.scss';
+
+//services_contant_section
+@import './serv_content_section.scss';
+
+
+//videotube
+@import 'videotube';
+
+
+//swiper 
+@import '~swiper/swiper.scss';
