@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@400;700&family=Open+Sans&family=Play&display=swap');
 
 @font-face {
-    font-family: 'gilroy_m', sans-serif;
-    src: url('./fonts/gilroy-medium-webfont.woff2') format('woff2'),
-        url('./fonts/gilroy-medium-webfont.woff') format('woff');
+    font-family: 'gilroy_m';
+    src: url('./fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('./fonts/Gilroy-Medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'tt_octosquares', sans-serif;
+    font-family: 'tt_octosquares';
     src: url('./fonts/ttoctosquares-regular-webfont.woff2') format('woff2'),
         url('./fonts/ttoctosquares-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -17,17 +17,17 @@
 }
 
 @font-face {
-    font-family: 'gilroy_r', sans-serif;
-    src: url('./fonts/gilroy-regular-webfont.woff2') format('woff2'),
-        url('./fonts/gilroy-regular-webfont.woff') format('woff');
+    font-family: 'gilroy_r';
+    src: url('./fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('./fonts/Gilroy-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'gilroy_b', sans-serif;
-    src: url('./fonts/gilroy-bold-webfont.woff2') format('woff2'),
-        url('./fonts/gilroy-bold-webfont.woff') format('woff');
+    font-family: 'gilroy_b';
+    src: url('./fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('./fonts/Gilroy-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

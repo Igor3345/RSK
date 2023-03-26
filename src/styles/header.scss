@@ -19,6 +19,10 @@
         position: static;
         position: relative;
 
+        &.header--burger_open{
+            background-color: #fff;
+        }
+
         a{
             color: #000;
         }
@@ -69,6 +73,12 @@
             background-color: #000;
         }
 
+        // .header_bottom__burger--open{
+        //     .header_bottom__burger-item{
+        //         background-color: #fff;
+        //     }
+        // }
+
         .header_bottom__navigation{
             a{
                 color: #000;
@@ -77,6 +87,10 @@
                     color: #fff;
                 }
             }
+        }
+
+        .header_bottom__submenu li a{
+            color: #fff;
         }
 
         .header_bottom__submenu{
@@ -377,6 +391,7 @@
                 background-color: transparent;
             }
             &:after{
+                background: url("./images/language_arrow.png") center center no-repeat;
                 transform: rotate(180deg);
                 transition: all 0.3s ease;
             }

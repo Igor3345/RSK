@@ -18,6 +18,7 @@ export const swiper_slider = async() => {
     if(top_slider){
         const index_top_slider = new Swiper(top_slider, {
             direction: 'horizontal',
+            allowTouchMove:true,
             slidesPerView: 1,
             effect:'fade',
             fadeEffect:{
@@ -60,6 +61,7 @@ export const swiper_slider = async() => {
 
         let desctop_settings = {
             direction: 'horizontal',
+            allowTouchMove:true,
             slidesPerView: 3.5,
             spaceBetween: 58,
             loop: false,
@@ -108,6 +110,7 @@ export const swiper_slider = async() => {
             let slides_length = slider.querySelectorAll('.js-catalog_slide').length;
             let catalog_slider =  new Swiper(slider, {
                 direction: 'vertical',
+                allowTouchMove:true,
                 slidesPerView: 3,
                 spaceBetween:83,
                 watchOverflow:true,
@@ -137,7 +140,7 @@ export const swiper_slider = async() => {
             function check_bullets(){
                 if(body.clientWidth > 1440 && slides_length < 4){
                     bullets_containers[index].classList.add('d-none');
-                }else if(body.clientWidth > 992 && slides_length < 3){
+                }else if(body.clientWidth > 319 && slides_length < 3){
                     bullets_containers[index].classList.add('d-none');
                 }
             }
@@ -152,6 +155,7 @@ export const swiper_slider = async() => {
         const partners_slides = partners_slider.querySelectorAll('.js-partners_slide');
         let catalog_slider =  new Swiper(partners_slider, {
             direction: 'horizontal',
+            allowTouchMove:true,
             slidesPerView: 4,
             spaceBetween:15,
             grabCursor: true,
@@ -201,6 +205,7 @@ export const swiper_slider = async() => {
 
         let services_options = {
             direction: 'vertical',
+            allowTouchMove:true,
             init: true,
             slidesPerView: 2,
             spaceBetween:0,
